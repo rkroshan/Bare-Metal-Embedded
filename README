@@ -1,12 +1,12 @@
-#BARE METAL EMBEDDED BOARD TESTING
+# BARE METAL EMBEDDED BOARD TESTING
 
-##- simple rtos program to run 4 leds on board at specific delays each task having equal priority with printf(semihosting) functionality
+## - simple rtos program to run 4 leds on board at specific delays each task having equal priority with printf(semihosting) functionality
 
-##- USAGE : To test stm32f4Discovery board (can test other boards as well)
+## - USAGE : To test stm32f4Discovery board (can test other boards as well)
 
-##- Running program on board
+## - Running program on board
 
-###I) Connecting with openocd and gdb server on Ubuntu/Linux
+### I) Connecting with openocd and gdb server on Ubuntu/Linux
 
 - clone the repository
 - install arm gcc toolchain and openocd : " ***sudo apt-get install gcc-arm-none-eabi binutils-arm-none-eabi gdb-arm-none-eabi openocd*** "
@@ -24,7 +24,7 @@
 -- run the command to halt the program and enter into debugging mode : "***monitor halt***"
 -- run the command to shutdown the connection of board with openocd: "***monitor shutdown***"  
 
-###II) Connecting with openocd and telnet server on Ubuntu/Linux
+### II) Connecting with openocd and telnet server on Ubuntu/Linux
 
 - clone the repository
 - install arm gcc toolchain, openocd and telnet: "***sudo apt-get install gcc-arm-none-eabi binutils-arm-none-eabi gdb-arm-none-eabi openocd telnet***" 
