@@ -1,10 +1,10 @@
 # BARE METAL EMBEDDED BOARD TESTING
 
-## - simple rtos program to run 4 leds on board at specific delays each task having equal priority with printf(semihosting) functionality
+### - simple rtos program to run 4 leds on board at specific delays each task having equal priority with printf(semihosting) functionality
 
-## - USAGE : To test stm32f4Discovery board (can test other boards as well)
+### - USAGE : To test stm32f4Discovery board (can test other boards as well)
 
-## - Running program on board
+### - Running program on board
 
 ### I) Connecting with openocd and gdb server on Ubuntu/Linux
 
@@ -41,6 +41,8 @@
 -- run the command to halt the program and enter into debugging mode : "***halt***"
 -- run the command to shutdown the connection of board with openocd: "***shutdown***"
 
-** *For more information go through the Makefile and programs to understand them better.*
-** *Other than stm32f4discovery boards can be tested just replace the stm32f4discovery.cfg file path with you board.cfg file which supports openocd*
-** *to find other boards cfg file On Ubuntu go to /usr/share/openocd/boards/ *
+*For more information go through the Makefile and programs to understand them better.*
+
+*Other than stm32f4discovery boards can be tested just replace the stm32f4discovery.cfg file path with you board.cfg file which supports openocd*
+
+*to find other boards cfg file On Ubuntu go to /usr/share/openocd/boards/ *
